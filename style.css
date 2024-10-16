@@ -1,1 +1,26 @@
-/* style*/
+.hero_container .rectangle{
+
+    padding: 10px 100px;
+}
+
+.hero_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,125,800;1,125,800&display=swap');
+
+.hero-header-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 700px;
+    font-size: 65px;
+    font-family: "Archivo", sans-serif;
+    text-align: center;
+    color: #ce0e25
+
+}
