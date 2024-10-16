@@ -1,3 +1,4 @@
+
 .hero_container .rectangle{
 
     padding: 10px 100px;
@@ -11,7 +12,6 @@
     margin: 0 auto;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,125,800;1,125,800&display=swap');
 
 .hero-header-text {
     display: flex;
@@ -24,3 +24,79 @@
     color: #ce0e25
 
 }
+
+
+nav {
+    margin: 0;
+    padding: 0;
+    background: #444;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background: #555;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #007bff;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.service {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 250px;
+    transition: transform 0.2s;
+}
+
+.service:hover {
+    transform: scale(1.05);
+}
+
+h1, h2 {
+    margin: 0 0 10px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+
