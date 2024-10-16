@@ -1,3 +1,33 @@
+
+nav {
+    margin: 0;
+    padding: 0;
+    background: #444;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background: #555;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -41,3 +71,4 @@ h1, h2 {
 p {
     line-height: 1.5;
 }
+
